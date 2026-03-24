@@ -1,0 +1,3 @@
+# This directory is used for JIRA ticket plans and documentation
+# Files in this directory are ignored by git (see .gitignore)
+# This file ensures the directory exists in the repository

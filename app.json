@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Juno",
+    "slug": "cp-juno-mobile-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bigpicture.juno",
+      "buildNumber": "1",
+      "entitlements": {
+        "aps-environment": "production"
+      },
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs access to camera to scan QR codes.",
+        "NSMicrophoneUsageDescription": "This app needs access to microphone for voice features.",
+        "NSSpeechRecognitionUsageDescription": "This app needs access to speech recognition to convert your voice messages into text for the AI assistant.",
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to allow you to attach supporting documents (such as receipts, invoices, or bank statements) from your photos when making payments or withdrawals.",
+        "ITSAppUsesNonExemptEncryption": false,
+        "UIBackgroundModes": ["remote-notification"]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.bigpicture.juno",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-router"
+    ],
+    "scheme": "juno",
+    "extra": {
+      "eas": {
+        "projectId": "ee1e372e-c5ec-4a3c-85d3-411096354438"
+      }
+    }
+  }
+}
