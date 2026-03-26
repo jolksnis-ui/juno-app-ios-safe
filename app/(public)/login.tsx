@@ -82,6 +82,11 @@ export default function LoginScreen() {
     router.push({ pathname: '/(public)/login-password', params: { email } });
   };
 
+  const handleGoBack = () => {
+    Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+    router.dismissTo('/(public)/splash');
+  };
+
   const handleBiometricLogin = async () => {
     try {
       const result = await LocalAuthentication.authenticateAsync({
@@ -130,7 +135,7 @@ export default function LoginScreen() {
               {/* Back Button */}
               <TouchableOpacity
                 style={styles.backButton}
-                onPress={() => router.canGoBack() ? router.back() : undefined}
+                onPress={handleGoBack}
                 hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}
               >
                 <Ionicons name="arrow-back" size={24} color={OnboardingColors.title} />
@@ -246,9 +251,9 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     gap: 12,
   },
   welcomeText: {
-    fontFamily: 'StagnanRegular',
+    fontFamily: 'Inter',
     fontSize: 28,
-    fontWeight: '700',
+    fontWeight: '600',
     color: OnboardingColors.title,
     letterSpacing: 0.5,
   },

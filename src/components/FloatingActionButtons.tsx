@@ -346,6 +346,9 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     letterSpacing: 0.2,
     marginTop: 2,
+
+    fontFamily: 'StagnanMedium',
+
   },
   floatingParticle: {
     position: 'absolute',

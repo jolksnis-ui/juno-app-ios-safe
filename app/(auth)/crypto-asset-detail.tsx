@@ -938,6 +938,9 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     color: theme.colors.text,
     fontSize: 14,
     fontWeight: '600',
+
+    fontFamily: 'StagnanMedium',
+
   },
   emptyContainer: {
     alignItems: 'center',
@@ -972,5 +975,8 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
     color: theme.isDark ? '#000000' : '#FFFFFF',
+
+    fontFamily: 'StagnanMedium',
+
   },
 });

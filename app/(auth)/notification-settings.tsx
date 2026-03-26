@@ -164,6 +164,9 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#007AFF',
     fontWeight: '500',
+
+    fontFamily: 'StagnanMedium',
+
   },
   title: {
     fontSize: 20,
@@ -265,5 +268,8 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 16,
     fontWeight: '600',
+
+    fontFamily: 'StagnanMedium',
+
   },
 });

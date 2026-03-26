@@ -640,6 +640,9 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     color: theme.colors.text,
     fontSize: 14,
     fontWeight: '600',
+
+    fontFamily: 'StagnanMedium',
+
   },
   // Empty state
   emptyContainer: {

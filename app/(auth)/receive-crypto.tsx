@@ -425,6 +425,9 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
     color: theme.colors.buttonText,
+
+    fontFamily: 'StagnanMedium',
+
   },
   regenerateButton: {
     flexDirection: 'row',
@@ -439,6 +442,9 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     fontWeight: '500',
     color: theme.colors.text,
     marginLeft: 8,
+
+    fontFamily: 'StagnanMedium',
+
   },
   buttonLoadingContainer: {
     flexDirection: 'row',

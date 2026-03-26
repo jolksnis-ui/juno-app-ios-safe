@@ -252,5 +252,8 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     textAlign: 'center',
     letterSpacing: 0.2,
+
+    fontFamily: 'StagnanMedium',
+
   },
 });

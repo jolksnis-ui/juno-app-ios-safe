@@ -255,6 +255,9 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     fontSize: 16,
     fontWeight: '700',
     letterSpacing: 0.3,
+
+    fontFamily: 'StagnanMedium',
+
   },
   cancelButton: {
     backgroundColor: 'rgba(255,255,255,0.15)',
@@ -266,6 +269,9 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
     letterSpacing: 0.3,
+
+    fontFamily: 'StagnanMedium',
+
   },
   buttonDisabled: {
     opacity: 0.6,
@@ -290,6 +296,9 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     color: '#fff',
     fontSize: 14,
     fontWeight: '500',
+
+    fontFamily: 'StagnanMedium',
+
   },
   cancelledContainer: {
     alignItems: 'center',

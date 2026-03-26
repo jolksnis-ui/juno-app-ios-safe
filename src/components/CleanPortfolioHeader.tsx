@@ -280,6 +280,9 @@ const createStyles = (theme: any) => StyleSheet.create({
     fontWeight: '600',
     textAlign: 'center',
     letterSpacing: 0.2,
+
+    fontFamily: 'StagnanMedium',
+
   },
   balanceSection: {
     paddingHorizontal: 20,

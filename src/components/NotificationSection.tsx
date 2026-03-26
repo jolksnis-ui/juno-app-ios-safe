@@ -196,6 +196,9 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 12,
     fontWeight: '600',
+
+    fontFamily: 'StagnanMedium',
+
   },
   buttonContainer: {
     gap: 12,
@@ -211,6 +214,9 @@ const styles = StyleSheet.create({
     color: '#1976D2',
     fontSize: 14,
     fontWeight: '600',
+
+    fontFamily: 'StagnanMedium',
+
   },
   settingsButton: {
     paddingVertical: 12,
@@ -221,5 +227,8 @@ const styles = StyleSheet.create({
     color: '#007AFF',
     fontSize: 16,
     fontWeight: '500',
+
+    fontFamily: 'StagnanMedium',
+
   },
 });

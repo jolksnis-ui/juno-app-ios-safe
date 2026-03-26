@@ -339,9 +339,9 @@ const createStyles = (theme: Theme) =>
       gap: 12,
     },
     titleText: {
-      fontFamily: 'StagnanRegular',
+      fontFamily: 'Inter',
       fontSize: 28,
-      fontWeight: '700',
+      fontWeight: '600',
       color: OnboardingColors.title,
       letterSpacing: 0.5,
     },

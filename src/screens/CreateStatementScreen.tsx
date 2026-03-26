@@ -522,6 +522,9 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
     marginLeft: 8,
+
+    fontFamily: 'StagnanMedium',
+
   },
   helpContainer: {
     backgroundColor: theme.colors.surface,

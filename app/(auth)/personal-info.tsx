@@ -340,6 +340,9 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
     color: '#00D4AA',
+
+    fontFamily: 'StagnanMedium',
+
   },
   placeholder: {
     width: 32,
@@ -499,6 +502,9 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
     color: '#000000',
+
+    fontFamily: 'StagnanMedium',
+
   },
   loadingRow: {
     flexDirection: 'row',

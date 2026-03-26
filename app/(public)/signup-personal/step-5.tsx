@@ -545,7 +545,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontFamily: 'Inter',
-    fontWeight: '700',
+    fontWeight: '600',
     fontSize: 28,
     lineHeight: 34,
     color: FIGMA.textPrimary,
@@ -689,6 +689,9 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     color: FIGMA.buttonText,
     letterSpacing: 0.5,
+
+    fontFamily: 'Inter',
+
   },
   termsText: {
     fontSize: 14,

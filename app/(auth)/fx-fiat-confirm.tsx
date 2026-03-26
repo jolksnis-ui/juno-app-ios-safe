@@ -416,6 +416,9 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
     color: theme.colors.buttonText,
+
+    fontFamily: 'StagnanMedium',
+
   },
   loadingContainer: {
     flexDirection: 'row',

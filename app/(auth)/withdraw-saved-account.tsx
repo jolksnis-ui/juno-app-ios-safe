@@ -670,6 +670,9 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     color: '#00D4AA',
     fontWeight: '500',
     marginLeft: 8,
+
+    fontFamily: 'StagnanMedium',
+
   },
   attachmentsList: {
     marginTop: 12,
@@ -719,6 +722,9 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
     color: theme.colors.buttonText,
+
+    fontFamily: 'StagnanMedium',
+
   },
   loadingContainer: {
     flexDirection: 'row',

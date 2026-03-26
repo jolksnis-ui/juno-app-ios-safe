@@ -352,6 +352,9 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     fontSize: 14,
     fontWeight: '600',
     marginLeft: 8,
+
+    fontFamily: 'StagnanMedium',
+
   },
   listContainer: {
     paddingTop: 8,
@@ -442,9 +445,15 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     fontSize: 12,
     fontWeight: '600',
     marginLeft: 4,
+
+    fontFamily: 'StagnanMedium',
+
   },
   downloadButtonTextDisabled: {
     color: '#999999',
+
+    fontFamily: 'StagnanMedium',
+
   },
   loadingContainer: {
     flex: 1,
@@ -478,6 +487,9 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     color: theme.colors.text,
     fontSize: 14,
     fontWeight: '600',
+
+    fontFamily: 'StagnanMedium',
+
   },
   emptyContainer: {
     flex: 1,
@@ -509,5 +521,8 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 14,
     fontWeight: '600',
+
+    fontFamily: 'StagnanMedium',
+
   },
 });

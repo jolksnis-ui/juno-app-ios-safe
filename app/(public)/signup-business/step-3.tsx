@@ -365,7 +365,7 @@ const createStyles = (_theme: Theme) => StyleSheet.create({
   },
   welcomeText: {
     fontSize: 28,
-    fontWeight: '700',
+    fontWeight: '600',
     color: OnboardingColors.title,
     letterSpacing: 0.5,
   },

@@ -451,6 +451,9 @@ const styles = StyleSheet.create({
     color: '#000000',
     fontSize: 16,
     fontWeight: '600',
+
+    fontFamily: 'StagnanMedium',
+
   },
   loadingContainer: {
     flexDirection: 'row',

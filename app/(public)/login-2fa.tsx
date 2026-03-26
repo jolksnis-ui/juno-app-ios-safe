@@ -233,9 +233,9 @@ const createStyles = (theme: Theme) => StyleSheet.create({
   },
   // Title — 28, Semibold
   titleText: {
-    fontFamily: 'StagnanRegular',
+    fontFamily: 'Inter',
     fontSize: 28,
-    fontWeight: '700',
+    fontWeight: '600',
     color: OnboardingColors.title,
     letterSpacing: 0.5,
   },
@@ -298,6 +298,9 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     fontWeight: '600',
     color: OnboardingColors.buttonPrimaryText,
     letterSpacing: 0.5,
+
+    fontFamily: 'StagnanMedium',
+
   },
   recoverySection: {
     flexDirection: 'column',

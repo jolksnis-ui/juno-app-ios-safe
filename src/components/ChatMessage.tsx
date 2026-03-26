@@ -442,6 +442,9 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     marginRight: 8,
     backgroundColor: 'transparent',
     includeFontPadding: false,
+
+    fontFamily: 'StagnanMedium',
+
   },
   messageContentWrapper: {
     flexDirection: 'row',

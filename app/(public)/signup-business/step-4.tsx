@@ -326,7 +326,7 @@ const createStyles = () =>
     dotInactive: { backgroundColor: FIGMA.dotInactive },
     titleBlock: { gap: 12, alignSelf: 'stretch' },
     title: {
-      fontWeight: '700',
+      fontWeight: '600',
       fontSize: 28,
       lineHeight: 34,
       color: FIGMA.textPrimary,
@@ -471,6 +471,9 @@ const createStyles = () =>
       fontWeight: '600',
       color: FIGMA.buttonText,
       letterSpacing: 0.5,
+
+      fontFamily: 'Inter',
+
     },
     termsText: {
       fontSize: 14,

@@ -93,7 +93,7 @@ export default function SignupAccountTypeScreen() {
 
   const handleGoBack = () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
-    router.back();
+    router.dismissTo('/(public)/splash');
   };
 
   return (
@@ -232,9 +232,9 @@ const createStyles = (theme: Theme) => StyleSheet.create({
     gap: 12,
   },
   titleText: {
-    fontFamily: 'StagnanRegular',
+    fontFamily: 'Inter',
     fontSize: 28,
-    fontWeight: '700',
+    fontWeight: '600',
     color: GuidelineColors.white,
     letterSpacing: 0.5,
   },
